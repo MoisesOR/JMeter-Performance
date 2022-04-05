@@ -1,0 +1,27 @@
+execution:
+- executor: jmeter
+  scenario: smoke
+  
+scenarios:
+    smoke:
+        script: JMeterScript.jmx
+        variables:
+            Protocol: https
+            Url: blazedemo.com
+            TestDuration: 60
+            RampUp: 0
+            DemoThreads: 1
+            DemoRpm: 5
+            ResultsPath: Results.csv
+            ErrorsPath: Errors.csv
+    load:
+        script: JMeterScript.jmx
+        variables:
+            Protocol: https
+            Url: blazedemo.com
+            TestDuration: 60
+            RampUp: 0
+            DemoThreads: 5
+            DemoRpm: 10
+            ResultsPath: Results.csv
+            ErrorsPath: Errors.csv

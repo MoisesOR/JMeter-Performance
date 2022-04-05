@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1649155819040,239,HTTP 1,200,OK,Thread Group 1-1,text,true,,114,0,1,1,null,37,0,5
+1649155819280,365,HTTP 2,200,OK,Thread Group 1-1,text,true,,114,0,1,1,null,5,0,5
+1649155819646,283,Error Request,400,OK,Thread Group 1-1,text,false,,114,0,1,1,null,46,0,1
+1649155819929,398,Content Request,200,OK,Thread Group 1-1,text,true,,10,0,1,1,null,2,0,4
+1649174359767,396,HTTP 1,200,OK,Example Thread 2-1,text,true,,114,0,1,1,null,8,0,4
+1649174360169,52,HTTP 2,200,OK,Example Thread 2-1,text,true,,114,0,1,1,null,50,0,4
+1649174360223,213,Content Request,200,OK,Example Thread 2-1,text,true,,10,0,1,1,null,14,0,5
+1649174360443,467,Error Request,400,OK,Example Thread 2-1,text,false,"""Response Code 200 Assertion: code is not 200.""",114,0,1,1,null,20,0,1
