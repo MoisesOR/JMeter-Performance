@@ -23,7 +23,7 @@ Small template in JMeter to do performance test.
 For check and create request to try others plugins without needed an API or whatever.
 ### [Filter Results Tool](https://jmeter-plugins.org/wiki/FilterResultsTool/) and [Merge Results](https://jmeter-plugins.org/wiki/MergeResults/)
 This both is needed to create a specific Results.csv to create your own report, *Filter Results Tool* works with command data not inside de JMeter GUI. 
-*Filter Results Tool* works with *cmdrunner-2.2*, you can download from [Maven Repo](https://mvnrepository.com/artifact/kg.apc/cmdrunner/2.2) and copy to your **jmeter/version/lib** folder.
+*Filter Results Tool* works with *"cmdrunner-2.2"*, you can download from [Maven Repo](https://mvnrepository.com/artifact/kg.apc/cmdrunner/2.2) and copy to your **jmeter/version/lib** folder.
 
 ## Taurus YAML
 There are a example YAML to launch a JMeter script without GUI. If you want to run it launch in the CMD inside the root file:
