@@ -28,5 +28,6 @@ This both is needed to create a specific Results.csv to create your own report, 
 ## Taurus YAML
 There are a example YAML to launch a JMeter script without GUI. If you want to run it launch in the CMD inside the root file:
 > bzt launchTaurus.yaml
+
 Automaticatly Taurus will install in your personal Folder (C:/Users/YourFolder) the next path and a JMeter version.
 > C:/Users/YourFolder/.bzt/apache-jmeter/jmeterVersion
