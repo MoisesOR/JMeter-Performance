@@ -10,12 +10,12 @@ Small template in JMeter to do performance test.
 - Install [Python](https://www.python.org/downloads/)
 - Install [Visual Studio C++](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16)
 
-## Report
+## Report creator
 **ReportCreator.bat** create the report just tipying the follow parameters:
-- **Title**: What title you want in the HTML. The default title is "Jmeter Report"
-- **CSV Path**: You must set your results path, just accept CSV.
-- **Folder Path**: Clean folder to contains the HTML and their configuration.
-- **Granularity**: Set the granularity for graphs inside HTML, default is 1 minute.
+- **Title:** What title you want in the HTML. The default title is "Jmeter Report"
+- **CSV Path:** You must set your results path, just accept CSV.
+- **Folder Path:** Clean folder to contains the HTML and their configuration.
+- **Granularity:** Set the granularity for graphs inside HTML, default is 1 minute.
 **IMPORTANT: You must have the JMeter version and bin in your Enviorment variables in the Path secction.**
 
 ## Plugins
@@ -31,3 +31,10 @@ There are a example YAML to launch a JMeter script without GUI. If you want to r
 
 Automaticatly Taurus will install in your personal Folder (C:/Users/YourFolder) the next path and a JMeter version.
 > C:/Users/YourFolder/.bzt/apache-jmeter/jmeterVersion
+
+## Filter Results Tool
+The fields to fill are this:
+- **Input File:** CSV containing the test results data.
+- **Output File:** CSV to fill with the new modified data.
+- **Success Only:** 'Y' for success request only in the new CSV.
+- **Include labels:**
