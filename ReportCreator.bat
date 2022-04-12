@@ -1,5 +1,5 @@
 @echo off
-echo Set the parameters:
+echo REPORT CREATOR
 echo(
 
 set /p title=Title:
@@ -17,6 +17,9 @@ echo Folder: %folder%
 echo Granularity: %ms%
 echo(
 
-set /p ready=Click to create report.
+echo jmeter -Jjmeter.reportgenerator.overall_granularity=%ms% -Jjmeter.reportgenerator.report_title="%title%" -g %csv% -o %folder%
+echo(
+
+pause
 
 jmeter -Jjmeter.reportgenerator.overall_granularity=%ms% -Jjmeter.reportgenerator.report_title="%title%" -g %csv% -o %folder%
