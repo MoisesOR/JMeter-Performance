@@ -10,15 +10,6 @@ Small template in JMeter to do performance test.
 - Install [Python](https://www.python.org/downloads/)
 - Install [Visual Studio C++](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16)
 
-## Report creator
-**ReportCreator.bat** create the report just tipying the follow parameters:
-- **Title:** What title you want in the HTML. The default title is "Jmeter Report"
-- **CSV Path:** You must set your results path, just accept CSV.
-- **Folder Path:** Clean folder to contains the HTML and their configuration.
-- **Granularity:** Set the granularity for graphs inside HTML, default is 1 minute.
-### **IMPORTANT: You must have the JMeter version and bin in your Enviorment variables in the Path secction.**
-![Sin título](https://user-images.githubusercontent.com/37635283/196415196-2c534f05-c770-4a73-801a-2fda6819c2da.png)
-
 ## Plugins
 ### [JMeter Plugins Manager](https://jmeter-plugins.org/wiki/PluginsManager/)
 The first plugin we must install for manage the rest of installed plugins.
@@ -38,6 +29,15 @@ There are a example YAML to launch a JMeter script without GUI. If you want to r
 
 Automaticatly Taurus will install in your personal Folder (C:/Users/YourFolder) the next path and a JMeter version.
 > C:/Users/YourFolder/.bzt/apache-jmeter/jmeterVersion
+
+## Report creator
+**ReportCreator.bat** create the report just tipying the follow parameters:
+- **Title:** What title you want in the HTML. The default title is "Jmeter Report"
+- **CSV Path:** You must set your results path, just accept CSV.
+- **Folder Path:** Clean folder to contains the HTML and their configuration.
+- **Granularity:** Set the granularity for graphs inside HTML, default is 1 minute.
+### **IMPORTANT: You must have the JMeter version and bin in your Enviorment variables in the Path secction.**
+![Sin título](https://user-images.githubusercontent.com/37635283/196415196-2c534f05-c770-4a73-801a-2fda6819c2da.png)
 
 ## Filter Results Tool
 The fields to fill are this:
